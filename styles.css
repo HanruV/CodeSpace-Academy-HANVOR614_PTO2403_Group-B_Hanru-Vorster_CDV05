@@ -25,12 +25,13 @@ body {
 }
 
 .container {
-  position: relative;
-  width: calc(100% - 40px);
-  height: calc(100% - 40px);
-  margin: 20px;
+  position: fixed;
+  width: calc(100% - 4rem);
+  height: calc(100% - 4rem);
+  margin: 2rem;
   border: 2px solid var(--border-color);
   box-sizing: border-box;
+  padding: 2rem;
 }
 
 .header {
