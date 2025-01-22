@@ -23,9 +23,9 @@ B --> C[View Homepage]
 
     K --> C
 
-    style A fill:#f9f,stroke:#333,stroke-width:2px
-    style B fill:#bbf,stroke:#333,stroke-width:2px
-    style C fill:#dfd,stroke:#333,stroke-width:2px
+    style A fill:#003C4b,stroke:#333,stroke-width:2px
+    style B fill:#516D58,stroke:#333,stroke-width:2px
+    style C fill:#BB6E29,stroke:#333,stroke-width:2px
 ```
 
 ## Features to be included
