@@ -30,20 +30,36 @@ B --> C[View Homepage]
 
 ## Features to be included
 
--Features Included
+- **Homepage**: A central hub for navigation.
 
--Homepage: A central hub for navigation.
+- **Theme Toggle:** Enhances user experience with light and dark theme options.
 
--Theme Toggle: Enhances user experience with light and dark theme options.
+- **Modal Windows**: Provides additional information through separate sections:
 
--Modal Windows: Provides additional information through separate sections:
+- **Info Modal**
 
--Info Modal
+  - Name and Surname
+  - Where I'm From
+  - Technologies I can Use
 
--Projects Modal
+- **Projects Modal**
 
--Contact Modal
+  - Name of project
+  - Screen Shot
+  - Github Repository
+  - Use Case scenario
+  - Tech Used
+    - Programming Languages: Python, JavaScript
+    - Frameworks: Django, React
+    - Libraries: Pandas, Axios
+    - Tools: Git, Docker
+    - Services: AWS, Firebase
 
--Responsive Design: Ensures smooth navigation and usability across devices.
+- **Contact Modal**
 
--Intuitive User Flow: Designed for seamless interactions and clear navigation paths.
+  - Email
+  - Github
+
+- **Responsive** Design: Ensures smooth navigation and usability across devices.
+
+- **Intuitive** User Flow: Designed for seamless interactions and clear navigation paths.
