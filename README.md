@@ -41,6 +41,8 @@ B --> C[View Homepage]
   - Name and Surname
   - Where I'm From
   - Technologies I can Use
+  - Github
+  - LinkedIn
 
 - **Projects Modal**
 
