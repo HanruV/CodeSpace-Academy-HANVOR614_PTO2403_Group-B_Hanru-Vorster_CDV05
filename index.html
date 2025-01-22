@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hanru Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body data-theme="dark">
+    <div class="container">
+      <div class="header">
+        <h1 class="name">Hanru Vorster</h1>
+        <p class="profession">Front-end Developer</p>
+        <button class="theme-toggle" id="themeToggle">Toggle Theme</button>
+      </div>
+
+      <nav class="nav">
+        <div class="nav-item" data-modal="info">INFO</div>
+        <div class="nav-item" data-modal="projects">PROJECTS</div>
+        <div class="nav-item" data-modal="contact">CONTACT</div>
+      </nav>
+
+      <!-- Modals -->
+      <div class="modal" id="infoModal">
+        <div class="modal-content">
+          <button class="close-modal">&times;</button>
+          <h2>Info</h2>
+          <p>Your bio and information goes here.</p>
+        </div>
+      </div>
+
+      <div class="modal" id="projectsModal">
+        <div class="modal-content">
+          <button class="close-modal">&times;</button>
+          <h2>Projects</h2>
+          <p>Your projects will be listed here.</p>
+        </div>
+      </div>
+
+      <div class="modal" id="contactModal">
+        <div class="modal-content">
+          <button class="close-modal">&times;</button>
+          <h2>Contact</h2>
+          <p>Your contact information goes here.</p>
+        </div>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
