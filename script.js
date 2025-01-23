@@ -13,18 +13,11 @@ themeToggle.addEventListener("click", () => {
 // Modal Functionality
 const navItems = document.querySelectorAll(".nav-item");
 const modals = document.querySelectorAll(".modal");
-const closeButtons = document.querySelectorAll(".close-modal");
 
 navItems.forEach((item) => {
   item.addEventListener("click", () => {
     const modalId = `${item.dataset.modal}Modal`;
     document.getElementById(modalId).style.display = "flex";
-  });
-});
-
-closeButtons.forEach((button) => {
-  button.addEventListener("click", () => {
-    button.closest(".modal").style.display = "none";
   });
 });
 
