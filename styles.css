@@ -121,6 +121,25 @@ body {
   pointer-events: auto;
 }
 
+.modal-content > h2 {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.name-surname {
+  margin-bottom: 0;
+  font-size: 1.5rem;
+}
+
+.name-place {
+  margin-top: 0.2rem;
+  font-size: 0.8rem;
+}
+
+.tech-stack {
+  font-weight: 800;
+}
+
 /* Links */
 
 .hidden-link {
