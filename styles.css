@@ -146,6 +146,49 @@ body {
   font-weight: 800;
 }
 
+/* Projects Modal */
+
+/* Projects Modal Styles */
+.project-item {
+  margin-bottom: 2rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.project-item:last-child {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  border-bottom: none;
+}
+
+.project-item h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+}
+
+.project-description {
+  margin-bottom: 0.5rem;
+  font-weight: 300;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.tech-stack {
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+  font-weight: 300;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.project-links {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.project-links a {
+  font-size: 0.9rem;
+}
+
 /* Links */
 
 .hidden-link {
