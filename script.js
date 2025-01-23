@@ -15,18 +15,31 @@ const navItems = document.querySelectorAll(".nav-item");
 const modals = document.querySelectorAll(".modal");
 
 navItems.forEach((item) => {
-  item.addEventListener("click", () => {
+  item.addEventListener("click", (e) => {
+    e.stopPropagation();
+
+    // Close all modals first
+    modals.forEach((modal) => {
+      modal.style.display = "none";
+    });
+
+    // Open the selected modal
     const modalId = `${item.dataset.modal}Modal`;
-    document.getElementById(modalId).style.display = "flex";
+    const targetModal = document.getElementById(modalId);
+    if (targetModal) {
+      targetModal.style.display = "flex";
+    }
   });
 });
 
+// Modify the window click handler to use stopPropagation
 window.addEventListener("click", (e) => {
-  modals.forEach((modal) => {
-    if (e.target === modal) {
+  if (e.target.classList.contains("modal")) {
+    e.stopPropagation();
+    modals.forEach((modal) => {
       modal.style.display = "none";
-    }
-  });
+    });
+  }
 });
 
 // Ensure all modals are closed on page load
