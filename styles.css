@@ -97,6 +97,7 @@ body {
   font-weight: 300;
 }
 
+/* Modals */
 .modal {
   display: none;
   position: fixed;
@@ -118,4 +119,27 @@ body {
   max-width: 500px;
   width: 90%;
   pointer-events: auto;
+}
+
+/* Links */
+
+.hidden-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.link-url {
+  display: none;
+}
+
+.hidden-link:hover .link-text {
+  display: none;
+}
+
+.hidden-link:hover .link-url {
+  display: inline;
+}
+
+.social-link {
+  font-weight: 800;
 }
