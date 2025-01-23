@@ -1,12 +1,20 @@
 // Theme Toggle
 const themeToggle = document.getElementById("themeToggle");
 const body = document.body;
+const container = document.querySelector(".container");
+
+// Set default theme
+container.classList.add("container-gradient-dark");
 
 themeToggle.addEventListener("click", () => {
   if (body.getAttribute("data-theme") === "dark") {
     body.removeAttribute("data-theme");
+    container.classList.remove("container-gradient-dark");
+    container.classList.add("container-gradient-light");
   } else {
     body.setAttribute("data-theme", "dark");
+    container.classList.remove("container-gradient-light");
+    container.classList.add("container-gradient-dark");
   }
 });
 
