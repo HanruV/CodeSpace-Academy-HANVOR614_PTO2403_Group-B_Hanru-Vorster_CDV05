@@ -50,6 +50,17 @@ window.addEventListener("click", (e) => {
   }
 });
 
+// Close modal button
+const closeButtons = document.querySelectorAll(".close-modal");
+closeButtons.forEach((button) => {
+  button.addEventListener("click", (e) => {
+    const modal = e.target.closest(".modal");
+    if (modal) {
+      modal.style.display = "none";
+    }
+  });
+});
+
 // Ensure all modals are closed on page load
 document.addEventListener("DOMContentLoaded", () => {
   const modals = document.querySelectorAll(".modal");
