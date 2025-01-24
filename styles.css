@@ -144,6 +144,9 @@ body {
   font-size: 2rem;
   font-weight: 600;
 }
+.modal-content > p {
+  margin: 0.4rem;
+}
 
 button.close-modal {
   background: var(--button-bg);
